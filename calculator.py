@@ -19,6 +19,11 @@ def power(a, b):
 def modulo(a, b):
     return a % b
 
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
 # Главная функция
 def main():
     x = 10
