@@ -1,5 +1,6 @@
 # Простой калькулятор
 def add(a, b):
+    print(f"Складываю {a} и {b}")  # ← КОНФЛИКТ со строкой main в feature-print
     return a + b
 
 def subtract(a, b):
