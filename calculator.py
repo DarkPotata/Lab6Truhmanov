@@ -23,11 +23,14 @@ def power(a, b):
 def modulo(a, b):
     return a % b
 
+def color_print(text):
+    print(f"\033[92m{text}\033[0m")
+
 # Главная функция
 def main():
     x = 10
     y = 5
-    print("=== Принт-версия ===")  # ← КОНФЛИКТ с feature-math commit 4
+    color_print("=== Принт-версия ===")  # Дополнительное изменение
     print(format_result("Сложение", add(x, y)))
     print(f"Вычитание: {subtract(x, y)}")
     print(f"Умножение: {multiply(x, y)}")
