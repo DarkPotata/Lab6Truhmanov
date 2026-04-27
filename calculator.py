@@ -35,12 +35,13 @@ def factorial(n):
 def main():
     x = 10
     y = 5
-    print("=== РАСШИРЕННЫЙ КАЛЬКУЛЯТОР ===")  # ← КОНФЛИКТ
+    print("=== РАСШИРЕННЫЙ КАЛЬКУЛЯТОР ===")
     print(f"Сложение: {add(x, y)}")
     print(f"Вычитание: {subtract(x, y)}")
     print(f"Умножение: {multiply(x, y)}")
     print(f"Деление: {divide(x, y)}")
     print(f"Степень: {power(x, y)}")
+    print(f"Факториал {y}: {factorial(y)}")
     print(f"Остаток: {modulo(x, y)}")
 
 if __name__ == "__main__":
