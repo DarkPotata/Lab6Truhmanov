@@ -1,5 +1,6 @@
 # Простой калькулятор
 def add(a, b):
+    print("Выполняется сложение...")  # ← КОНФЛИКТ с feature-math commit 3
     return a + b
 
 def format_result(operation, result):
