@@ -2,6 +2,9 @@
 def add(a, b):
     return a + b
 
+def format_result(operation, result):
+    return f"→ {operation}: {result:.2f}"
+
 def subtract(a, b):
     return a - b
 
