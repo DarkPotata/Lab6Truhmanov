@@ -26,7 +26,7 @@ def modulo(a, b):
 def main():
     x = 10
     y = 5
-    print("=== КАЛЬКУЛЯТОР v1.0 ===")
+    print("=== Math Features ===")  # ← КОНФЛИКТ с feature-print
     print(f"Сложение: {add(x, y)}")
     print(f"Вычитание: {subtract(x, y)}")
     print(f"Умножение: {multiply(x, y)}")
