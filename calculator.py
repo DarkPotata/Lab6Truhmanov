@@ -35,7 +35,7 @@ def factorial(n):
 def main():
     x = 10
     y = 5
-    print("=== КАЛЬКУЛЯТОР v1.0 ===")
+    print("=== РАСШИРЕННЫЙ КАЛЬКУЛЯТОР ===")  # ← КОНФЛИКТ
     print(f"Сложение: {add(x, y)}")
     print(f"Вычитание: {subtract(x, y)}")
     print(f"Умножение: {multiply(x, y)}")
