@@ -10,7 +10,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Ошибка"
+        return "Ошибка: деление на ноль"
     return a / b
 
 def power(a, b):
