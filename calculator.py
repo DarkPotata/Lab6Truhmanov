@@ -14,7 +14,14 @@ def divide(a, b):
     return a / b
 
 def power(a, b):
-    return a ** b
+    if b == 0:
+        return 1
+    elif b < 0:
+        return 1 / (a ** abs(b))
+    result = 1
+    for _ in range(b):
+        result *= a
+    return result
 
 def modulo(a, b):
     return a % b
