@@ -16,6 +16,9 @@ def divide(a, b):
 def power(a, b):
     return a ** b
 
+def modulo(a, b):
+    return a % b
+
 # Главная функция
 def main():
     x = 10
@@ -25,6 +28,7 @@ def main():
     print(f"Умножение: {multiply(x, y)}")
     print(f"Деление: {divide(x, y)}")
     print(f"Степень: {power(x, y)}")
+    print(f"Остаток: {modulo(x, y)}")
 
 if __name__ == "__main__":
     main()
