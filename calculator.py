@@ -14,6 +14,8 @@ def divide(a, b):
     return a / b
 
 def power(a, b):
+    if b < 0:
+        return 1 / (a ** abs(b))
     return a ** b
 
 def modulo(a, b):
